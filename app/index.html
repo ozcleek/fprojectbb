@@ -27,12 +27,7 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <div class="container">
-            <input class="js-username-2"></input>
-            <input class="js-password-2"></input>
-            <input class="js-email-2"></input>
-            <button class="js-submit-2">submit</button>        
-        </div>
+       
         <div class="container-signin">
           <!-- Sign in template goes here -->
 
@@ -53,7 +48,96 @@
         </script>
 
         <script type="text/template" id="home-view-template">
-          <div class="please">Yo</div>
+          <div class="wrapper">
+            <div class="box">
+                <div class="row row-offcanvas row-offcanvas-left">
+                              
+                  
+                    <!-- sidebar -->
+                    <div class="column col-sm-2 col-xs-1 sidebar-offcanvas" id="sidebar">
+                      <ul class="nav">
+                        <li><a href="#" data-toggle="offcanvas" class="visible-xs text-center"><i class="glyphicon glyphicon-chevron-right"></i></a></li>
+                      </ul>
+                      
+                        <ul class="nav hidden-xs" id="lg-menu">
+                            <li><a href="#stories"><i class="glyphicon glyphicon-list"></i> Beer</a></li>
+                            <li><a href="#"><i class="glyphicon glyphicon-paperclip"></i> Beer</a></li>
+                            <li><a href="#"><i class="glyphicon glyphicon-refresh"></i> Beer</a></li>
+                        </ul>
+                    
+                        <!-- tiny only nav-->
+                        <ul class="nav visible-xs" id="xs-menu">
+                            <li><a href="#stories" class="text-center"><i class="glyphicon glyphicon-list"></i></a></li>
+                            <li><a href="#" class="text-center"><i class="glyphicon glyphicon-paperclip"></i></a></li>
+                            <li><a href="#" class="text-center"><i class="glyphicon glyphicon-refresh"></i></a></li>
+                        </ul>
+                      
+                    </div>
+                    <!-- /sidebar -->
+                  
+                    <!-- main right col -->
+                    <div class="column col-sm-10 col-xs-11" id="main">
+                        
+                        <!-- top nav -->
+                        <div class="navbar navbar-blue navbar-static-top">  
+                            <div class="navbar-header">
+                              <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="sr-only">Toggle</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                              </button>
+                              <a href="/" class="navbar-brand logo">Beer</a>
+                            </div>
+                            <nav class="collapse navbar-collapse" role="navigation">
+                              <ul class="nav navbar-nav navbar-right">                          
+                                <li>
+                                  <a href="#postModal" role="button" data-toggle="modal"><i class="glyphicon glyphicon-plus"></i> Post a Favor</a>
+                                </li>
+                              </ul>
+                            </nav>
+                        </div>
+                        <!-- /top nav -->
+                      
+                        <div class="padding">
+                            <div class="full col-sm-12">
+                              
+                                <!-- content -->                      
+                                <div class="row">
+                                  
+                                <!-- main col left --> 
+                                <div class="col-sm-12">
+
+
+                                  <ul class="favor-list">    
+                                  </ul>  
+
+
+                                    <li class="favors"> 
+                                      <span class="glyphicon glyphicon-user"></span>
+                                      <span>Name:</span>
+                                      <span>Kevin</span>
+                                      <span class="glyphicon glyphicon-search"></span>
+                                      <span class="glyphicon glyphicon-pushpin"></span>
+                                      <span class="glyphicon glyphicon-calendar"></span>
+                                      <p class="discription">
+
+                                       favorText 
+
+
+                                      </p>
+                                      <div class="option-wrapper"></div>
+                                    </li>
+
+
+                            </div><!-- /col-9 -->
+                        </div><!-- /padding -->
+                    </div>
+                    <!-- /main -->
+                  
+                </div>
+            </div>
+        </div>
         </script>
 
 
