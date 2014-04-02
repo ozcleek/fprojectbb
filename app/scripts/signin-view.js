@@ -35,17 +35,15 @@ var SigninView = Parse.View.extend({
 
     user.signUp(null, {
       success: function(user){
+        router.navigate('user/', {
+         trigger: true
+        });
         console.log('we got this far...')
       },
       error: function(user, error){
         alert(error.message);
       }
     });
-  
-        console.log("shiver me timbers!")
-        // router.navigate('user/', {
-        //  trigger: true
-        // });
   }
 
 });

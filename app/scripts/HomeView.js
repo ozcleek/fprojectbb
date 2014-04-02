@@ -1,4 +1,4 @@
-var HomepageView = Parse.View.extend({
+var HomeView = Parse.View.extend({
 
   renderTemplate: _.template($("#home-view-template").text()),
 
